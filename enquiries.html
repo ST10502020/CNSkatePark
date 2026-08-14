@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiries: CN SkatePark</title>
+    <link rel="icon" type="image/png" href="images/IndexImages/Logo.png">
+</head>
+<body>
+    <header>
+        <img src="images/IndexImages/Logo.png" alt="CN SKateboards Logo">
+        <nav style="text-align: center; font-size: 21px;">
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="services.html">Services</a> |
+            <a href="enquiries.html">Enquiries</a> |
+            <a href="contact.html">Contact</a> 
+        </nav>
+    </header>
+    <main><!--Add pictures later-->
+        <form action="https://formspree.io/f/xbgrkwae" method="post"><!--used formspree to create a route for all messages sent through the site to go to a dedicated website rather than being lost-->
+            <div>
+                <label for="fname">Full Name</label><!--gives the input a label for the user to view-->
+                <input type="text" id="fname" name="fname" placeholder="Enter Your Full Name"  style="width: 300px; height: 30px;" required> <!--input text allows for text to be entered-->
+            </div>
+            <br>
+            <div>
+                <label for="email">E-Mail</label>
+                <input type="email" id="email" name="email" placeholder="Enter Your E-Mail Address" style="width: 300px; height: 30px;" required>
+            </div>
+            <br>
+            <div>
+        <label for="message">Enquiry</label>
+        <textarea id="message" name="message" placeholder="Enter your enquiry" rows="5" style="width: 300px; height: 150px;" required></textarea>
+            </div>
+            <div>
+               <input type="reset" value="Clear"><!--input reset clears every field-->
+               <input type="submit" value="Send Enquiry"><!--input submit forwards the input text to the designated reciever, without the reciever it would just clear-->
+            </div>
+        </form>
+    </main>
+    <footer>
+        <nav style="text-align: center; font-size: 21px;">
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="services.html">Services</a> |
+            <a href="enquiries.html">Enquiries</a> |
+            <a href="contact.html">Contact</a> 
+        </nav>
+    </footer>
+</body>
+</html>
