@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enquiries: CN SkatePark</title>
+    <link rel="stylesheet" href="css_assets/cn_skatepark_enquiries.css">
     <link rel="icon" type="image/png" href="images/IndexImages/Logo.png">
 </head>
 <body>
     <header>
-        <img src="images/IndexImages/Logo.png" alt="CN SKateboards Logo">
+        <div class="header_top">
+            <div class="logo">
+                 <img src="images/IndexImages/Logo.png" alt="CN SkatePark Logo">
+            </div>
+            <div class="enquiry_title">
+                <h1>Contact CN SkatePark</h2>
+            </div>
+        </div>
+        
         <nav style="text-align: center; font-size: 21px;">
             <a href="index.html">Home</a> |
             <a href="about.html">About</a> |
@@ -18,7 +27,8 @@
         </nav>
     </header>
     <main><!--Add pictures later-->
-        <form action="https://formspree.io/f/xbgrkwae" method="post"><!--used formspree to create a route for all messages sent through the site to go to a dedicated website rather than being lost-->
+        <form class="enquiry_form" action="https://formspree.io/f/xbgrkwae" method="post"><!--used formspree to create a route for all messages sent through the site to go to a dedicated website rather than being lost-->
+            <h2>Send Us An Enquiry</h2>
             <div>
                 <label for="fname">Full Name</label><!--gives the input a label for the user to view-->
                 <input type="text" id="fname" name="fname" placeholder="Enter Your Full Name"  style="width: 300px; height: 30px;" required> <!--input text allows for text to be entered-->
