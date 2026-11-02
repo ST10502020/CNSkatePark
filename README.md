@@ -219,4 +219,3 @@ The source code is stored in this GitHub repository, and changes were committed 
 - Schema.org (2026) *LocalBusiness and SportsActivityLocation*. Available at: https://schema.org (Accessed: 2 November 2026).
 - Sitemaps.org (2026) *Sitemaps XML format*. Available at: https://www.sitemaps.org/protocol.html (Accessed: 2 November 2026).
 - Barbhuiya, T. (2026) *About page hero image*. Unsplash. Available at: https://unsplash.com (Accessed: 2 November 2026).
-- [ADD ANY PART 1 AND PART 2 REFERENCES FROM YOUR PREVIOUS README]
