@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /css_assets/
+Disallow: /js_assets/
+
+Sitemap: https://cnskatepark.netlify.app//sitemap.xml
