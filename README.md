@@ -3,9 +3,8 @@
 A multi-page website for **CN SkatePark**, a small South African business that provides a safe, dedicated space for skateboarding, rollerskating, trick biking and more.
 
 - **Live site:** https://cnskatepark.netlify.app
-- **Repository:** [ADD YOUR GITHUB REPOSITORY LINK HERE]
-- **Author:** [ADD YOUR NAME AND STUDENT NUMBER]
-- **Module / Assessment:** [ADD MODULE CODE], Part 3: Enhancing Functionality and SEO
+- **Repository:** https://github.com/ST10502020/CNSkatePark.git
+- **Author:** Corlett Nonge
 
 ---
 
